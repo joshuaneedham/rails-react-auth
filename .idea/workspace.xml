@@ -11,15 +11,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d06caca-b275-40f4-a320-adb635654967" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/rra-base.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/concerns/current_user_concern.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rra-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rra-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth/Registration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/front-end/package.json" />
+  </component>
   <component name="ProjectId" id="1fIATMROk6BlIJV1KATxvTOzX4q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,7 +63,13 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/front-end/src/styles" />
+      <recent name="$PROJECT_DIR$/front-end/src/components" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: rra-base">
     <configuration name="Development: rra-base" type="RailsRunConfigurationType" factoryName="Rails">
@@ -163,7 +182,8 @@
       <workItem from="1595895305783" duration="1099000" />
       <workItem from="1595901999300" duration="2404000" />
       <workItem from="1595904435127" duration="51000" />
-      <workItem from="1595904501725" duration="431000" />
+      <workItem from="1595904501725" duration="744000" />
+      <workItem from="1595905264087" duration="1170000" />
     </task>
     <servers />
   </component>
@@ -187,14 +207,38 @@
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
     <state x="565" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595895272346" />
+    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595906329876">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595906329876" />
     <state x="716" y="442" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595902218759">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
     <state x="716" y="442" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595902218759" />
-    <state x="474" y="229" key="SettingsEditor" timestamp="1595904471034">
+    <state width="943" height="313" key="GridCell.Tab.0.bottom" timestamp="1595905413368">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state x="474" y="229" key="SettingsEditor/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595904471034" />
+    <state width="943" height="313" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413368" />
+    <state width="943" height="313" key="GridCell.Tab.0.center" timestamp="1595905413367">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state width="943" height="313" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413367" />
+    <state width="943" height="313" key="GridCell.Tab.0.left" timestamp="1595905413366">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state width="943" height="313" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413366" />
+    <state width="943" height="313" key="GridCell.Tab.0.right" timestamp="1595905413367">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state width="943" height="313" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413367" />
+    <state x="474" y="229" key="SettingsEditor" timestamp="1595905925142">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state x="474" y="229" key="SettingsEditor/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905925142" />
+    <state x="782" y="508" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595906182136">
+      <screen x="0" y="23" width="3840" height="1177" />
+    </state>
+    <state x="782" y="508" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595906182136" />
     <state x="630" y="275" key="run.anything.popup" timestamp="1595895257171">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
