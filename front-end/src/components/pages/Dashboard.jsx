@@ -5,6 +5,7 @@ const Dashboard = (props) => {
 		<div>
 			{console.log(props.loggedInStatus)}
 			<h1>Dashboard</h1>
+			Session Info: {this.props.loggedInStatus}
 		</div>
 	);
 };

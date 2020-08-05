@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/App.css';
 import { Switch, Route } from 'react-router-dom';
-import Axios from 'axios';
+import axios from 'axios';
 import Container from 'react-bootstrap/Container';
 import Topbar from './layout/Topbar';
 import Home from './pages/Home';
@@ -21,9 +21,10 @@ export default class App extends Component {
 	}
 
 	checkLoginStatus() {
-		Axios.get('http://localhost:3001/api/v1/logged_in', {
-			withCredentials: true,
-		})
+		axios
+			.get('http://localhost:3001/api/v1/logged_in', {
+				withCredentials: true,
+			})
 			.then((response) => {
 				if (
 					response.data.logged_in &&
