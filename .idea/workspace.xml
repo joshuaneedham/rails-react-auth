@@ -11,22 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d06caca-b275-40f4-a320-adb635654967" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/pages/Dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front-end/src/components/pages/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/tasks/start.rake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rra-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rra-base.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/components/auth/Registration.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/components/auth/Registration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/serviceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/styles/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/styles/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="project.settings.patched" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
@@ -183,7 +182,8 @@
       <workItem from="1595901999300" duration="2404000" />
       <workItem from="1595904435127" duration="51000" />
       <workItem from="1595904501725" duration="744000" />
-      <workItem from="1595905264087" duration="1170000" />
+      <workItem from="1595905264087" duration="4822000" />
+      <workItem from="1595977315497" duration="3114000" />
     </task>
     <servers />
   </component>
@@ -207,30 +207,30 @@
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
     <state x="565" y="256" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595895272346" />
-    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595906329876">
+    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595976016019">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595906329876" />
+    <state x="739" y="396" key="#com.intellij.fileTypes.FileTypeChooser/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595976016019" />
     <state x="716" y="442" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595902218759">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
     <state x="716" y="442" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595902218759" />
-    <state width="943" height="313" key="GridCell.Tab.0.bottom" timestamp="1595905413368">
+    <state width="943" height="313" key="GridCell.Tab.0.bottom" timestamp="1595977272381">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state width="943" height="313" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413368" />
-    <state width="943" height="313" key="GridCell.Tab.0.center" timestamp="1595905413367">
+    <state width="943" height="313" key="GridCell.Tab.0.bottom/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595977272381" />
+    <state width="943" height="313" key="GridCell.Tab.0.center" timestamp="1595977272380">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state width="943" height="313" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413367" />
-    <state width="943" height="313" key="GridCell.Tab.0.left" timestamp="1595905413366">
+    <state width="943" height="313" key="GridCell.Tab.0.center/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595977272380" />
+    <state width="943" height="313" key="GridCell.Tab.0.left" timestamp="1595977272380">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state width="943" height="313" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413366" />
-    <state width="943" height="313" key="GridCell.Tab.0.right" timestamp="1595905413367">
+    <state width="943" height="313" key="GridCell.Tab.0.left/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595977272380" />
+    <state width="943" height="313" key="GridCell.Tab.0.right" timestamp="1595977272381">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
-    <state width="943" height="313" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595905413367" />
+    <state width="943" height="313" key="GridCell.Tab.0.right/-1680.23.1680.1027/0.23.3840.1177@0.23.3840.1177" timestamp="1595977272381" />
     <state x="474" y="229" key="SettingsEditor" timestamp="1595905925142">
       <screen x="0" y="23" width="3840" height="1177" />
     </state>
