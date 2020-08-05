@@ -1,5 +1,7 @@
 # README
 
-rails db:create
-rails db:migrate
-rake start
+`rails db:create`
+
+`rails db:migrate`
+
+`rake start`
