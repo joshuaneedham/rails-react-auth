@@ -1,18 +1,12 @@
-import React, { Component } from 'react';
-import User from './User';
+import React from 'react';
 
-export default class Home extends Component {
-	constructor(props) {
-		super(props);
-	}
-
-	render() {
-		return (
-			<div>
-				{console.log(this.props.loggedInStatus)}
-				<h1>Home Page</h1>
-				Session Info: {this.props.loggedInStatus}
-			</div>
-		);
-	}
-}
+const Home = (props) => {
+	return (
+		<div>
+			{console.log(props.loggedInStatus)}
+			<h1>Home Page</h1>
+			Session Info: {props.loggedInStatus}
+		</div>
+	);
+};
+export default Home;

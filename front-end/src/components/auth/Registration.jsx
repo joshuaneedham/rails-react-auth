@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import axios from 'axios';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import axios from 'axios';
 
 export default class Registration extends Component {
 	constructor(props) {
@@ -28,7 +28,7 @@ export default class Registration extends Component {
 		const { name, email, password, password_confirmation } = this.state;
 		axios
 			.post(
-				'http://localhost:3001/api/v1/registrations',
+				'http://localhost:3001/registrations',
 				{
 					user: {
 						name: name,
