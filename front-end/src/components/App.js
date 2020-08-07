@@ -26,6 +26,7 @@ export default class App extends Component {
 				withCredentials: true,
 			})
 			.then((response) => {
+				console.log('logged in?', response);
 				if (
 					response.data.logged_in &&
 					this.state.loggedInStatus === 'NOT_LOGGED_IN'
@@ -70,11 +71,7 @@ export default class App extends Component {
 							exact
 							path={'/'}
 							render={(props) => (
-								<Home
-									{...props}
-									handleLogin={this.handleLogin}
-									loggedInStatus={this.state.loggedInStatus}
-								/>
+								<Home {...props} loggedInStatus={this.state.loggedInStatus} />
 							)}
 						/>
 						<Route
@@ -83,7 +80,6 @@ export default class App extends Component {
 							render={(props) => (
 								<Dashboard
 									{...props}
-									handleLogin={this.handleLogin}
 									loggedInStatus={this.state.loggedInStatus}
 								/>
 							)}></Route>

@@ -9,20 +9,12 @@ export default class User extends React.Component {
 		super(props);
 
 		this.handleSuccessfulAuth = this.handleSuccessfulAuth.bind(this);
-		this.handleLogin = this.handleLogin.bind(this);
 	}
 
 	// Handles successful login and redirects user to Home page
 	handleSuccessfulAuth(data) {
 		this.props.handleLogin(data);
 		this.props.history.push('/');
-	}
-
-	handleLogin(data) {
-		this.setState({
-			loggedInStatus: 'LOGGED_IN',
-			user: data.user,
-		});
 	}
 
 	render() {
