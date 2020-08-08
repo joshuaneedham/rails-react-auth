@@ -1,6 +1,6 @@
 # README
 
-This is the result of watch Jordan Hudgens video tutorial's on YouTube for React/Rails Auth. Feel free to use it as a base.
+This is the result of watching Jordan Hudgens video tutorial's on YouTube for React/Rails Auth. Feel free to use it as a base.
 
 I chose PostgreSQL for the DB so if you want to use something else you'll need to update the DB settings.
 
