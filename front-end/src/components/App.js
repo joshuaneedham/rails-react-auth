@@ -18,15 +18,15 @@ export default class App extends Component {
 		};
 
 		this.handleLogin = this.handleLogin.bind(this);
+		this.handleLogout = this.handleLogout.bind(this);
 	}
 
 	checkLoginStatus() {
 		axios
-			.get('http://localhost:3001/logged_in', {
+			.get('http://localhost:3001/api/v1/logged_in', {
 				withCredentials: true,
 			})
 			.then((response) => {
-				console.log('logged in?', response);
 				if (
 					response.data.logged_in &&
 					this.state.loggedInStatus === 'NOT_LOGGED_IN'
@@ -50,10 +50,6 @@ export default class App extends Component {
 			});
 	}
 
-	componentDidMount() {
-		this.checkLoginStatus();
-	}
-
 	handleLogin(data) {
 		this.setState({
 			loggedInStatus: 'LOGGED_IN',
@@ -61,10 +57,21 @@ export default class App extends Component {
 		});
 	}
 
+	handleLogout() {
+		this.setState({
+			loggedInStatus: 'NOT_LOGGED_IN',
+			user: {},
+		});
+	}
+
+	componentDidMount() {
+		this.checkLoginStatus();
+	}
+
 	render() {
 		return (
 			<div>
-				<Topbar />
+				<Topbar handleLogout={this.handleLogout} />
 				<Container>
 					<Switch>
 						<Route

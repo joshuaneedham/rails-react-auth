@@ -28,7 +28,7 @@ export default class Registration extends Component {
 		const { name, email, password, password_confirmation } = this.state;
 		axios
 			.post(
-				'http://localhost:3001/registrations',
+				'http://localhost:3001/api/v1/registrations',
 				{
 					user: {
 						name: name,

@@ -17,7 +17,8 @@ const Home = (props) => {
 				src='https://www.youtube.com/embed/videoseries?list=PLgYiyoyNPrv_yNp5Pzsx0A3gQ8-tfg66j'
 				frameborder='0'
 				allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-				allowfullscreen></iframe>
+				allowfullscreen
+				title='React/Rails Authentication Tutorial'></iframe>
 			<p className='lead'>
 				Feel free to use this application to help you get started building Rails
 				backend with React front ends.{' '}
