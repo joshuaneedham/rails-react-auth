@@ -27,6 +27,7 @@ export default class App extends Component {
 				withCredentials: true,
 			})
 			.then((response) => {
+				console.log(response.data.user);
 				if (
 					response.data.logged_in &&
 					this.state.loggedInStatus === 'NOT_LOGGED_IN'
@@ -72,6 +73,7 @@ export default class App extends Component {
 		return (
 			<div>
 				<Topbar handleLogout={this.handleLogout} />
+				<h1>Welcome {this.state.user.name}</h1>
 				<Container>
 					<Switch>
 						<Route

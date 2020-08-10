@@ -12,7 +12,7 @@ const MainNav = (props) => {
 				<Nav.Link as={Link} to='/dashboard'>
 					Dashboard
 				</Nav.Link>
-				<Nav.Link as={Link} to='/user'>
+				<Nav.Link as={Link} to='/user/'>
 					User
 				</Nav.Link>
 			</Nav>
