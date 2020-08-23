@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 import Topbar from './layout/Topbar';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
-import User from './pages/User';
+import User from './user/User';
 
 export default class App extends Component {
 	constructor() {
@@ -70,17 +70,22 @@ export default class App extends Component {
 	}
 
 	render() {
+		const userName = this.state.user.user_name;
 		return (
 			<div>
 				<Topbar handleLogout={this.handleLogout} />
-				<h1>Welcome {this.state.user.name}</h1>
+				{/* <h1>Welcome {userName}</h1> */}
 				<Container>
 					<Switch>
 						<Route
 							exact
 							path={'/'}
 							render={(props) => (
-								<Home {...props} loggedInStatus={this.state.loggedInStatus} />
+								<Home
+									{...props}
+									loggedInStatus={this.state.loggedInStatus}
+									userName={userName}
+								/>
 							)}
 						/>
 						<Route
@@ -90,6 +95,7 @@ export default class App extends Component {
 								<Dashboard
 									{...props}
 									loggedInStatus={this.state.loggedInStatus}
+									userName={userName}
 								/>
 							)}></Route>
 						<Route
@@ -100,6 +106,7 @@ export default class App extends Component {
 									{...props}
 									handleLogin={this.handleLogin}
 									loggedInStatus={this.state.loggedInStatus}
+									userName={userName}
 								/>
 							)}></Route>
 					</Switch>

@@ -21,10 +21,13 @@ export default class User extends React.Component {
 	render() {
 		return (
 			<div>
-				Session Info: {this.props.loggedInStatus}
 				{/* Code below shuold be conditional and should display login and registration button. Upon selection onClick should populate the form selected. If user is logged in it should display the user information and the ability to edit. */}
 				<Row>
-					<Col>{console.log(this.props)}</Col>
+					<Col>
+						<h1>
+							{this.props.userName} is currently {this.props.loggedInStatus}
+						</h1>
+					</Col>
 				</Row>
 				<Row>
 					<Col md={6}>
