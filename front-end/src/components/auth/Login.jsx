@@ -12,14 +12,13 @@ export default class Login extends Component {
 			password: '',
 			loginErrors: '',
 		};
-		this.handleSubmit = this.handleSubmit.bind(this);
 		this.handleChange = this.handleChange.bind(this);
+		this.handleSubmit = this.handleSubmit.bind(this);
 	}
 
-	handleChange(event) {
-		this.setState({
-			[event.target.name]: event.target.value,
-		});
+	handleChange(e) {
+		const { name, value } = e.target;
+		this.setState({ [name]: value });
 	}
 
 	handleSubmit(event) {

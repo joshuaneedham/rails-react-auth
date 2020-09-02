@@ -21,6 +21,7 @@ export default class Topbar extends Component {
 				console.log('logout error', error);
 			});
 	}
+
 	render() {
 		return (
 			<div>
@@ -33,14 +34,18 @@ export default class Topbar extends Component {
 							height='30'
 							className='d-inline-block align-top'
 						/>{' '} */}
-						Rails/React Auth App
+						DownTheTu.be
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls='basic-navbar-nav' />
 					<Navbar.Collapse id='basic-navbar-nav'>
-						<MainNav />
-						<Button type='Submit' onClick={(props) => this.handleLogoutClick()}>
-							Logout
-						</Button>
+						<MainNav loggedInStatus={this.props.loggedInStatus} />
+						{this.props.loggedInStatus !== 'LOGGED_IN' ? null : (
+							<Button
+								type='Submit'
+								onClick={(props) => this.handleLogoutClick()}>
+								Logout
+							</Button>
+						)}
 					</Navbar.Collapse>
 				</Navbar>
 			</div>

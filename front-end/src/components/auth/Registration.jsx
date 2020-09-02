@@ -8,7 +8,7 @@ export default class Registration extends Component {
 		super(props);
 
 		this.state = {
-			name: '',
+			user_name: '',
 			email: '',
 			password: '',
 			password_confirmation: '',
@@ -18,20 +18,19 @@ export default class Registration extends Component {
 		this.handleChange = this.handleChange.bind(this);
 	}
 
-	handleChange(event) {
-		this.setState({
-			[event.target.name]: event.target.value,
-		});
+	handleChange(e) {
+		const { name, value } = e.target;
+		this.setState({ [name]: value });
 	}
 
 	handleSubmit(event) {
-		const { name, email, password, password_confirmation } = this.state;
+		const { user_name, email, password, password_confirmation } = this.state;
 		axios
 			.post(
 				'http://localhost:3001/api/v1/registrations',
 				{
 					user: {
-						name: name,
+						user_name: user_name,
 						email: email,
 						password: password,
 						password_confirmation: password_confirmation,
@@ -56,13 +55,13 @@ export default class Registration extends Component {
 			<div>
 				<h1>Registration</h1>
 				<form onSubmit={this.handleSubmit}>
-					<Form.Group controlId='formBasicName'>
-						<Form.Label>Name</Form.Label>
+					<Form.Group controlId='formBasicUserName'>
+						<Form.Label>Username</Form.Label>
 						<Form.Control
 							type='text'
-							name='name'
-							placeholder='Full Name'
-							value={this.state.name}
+							name='user_name'
+							placeholder='Username'
+							value={this.state.user_name}
 							onChange={this.handleChange}
 							required
 						/>

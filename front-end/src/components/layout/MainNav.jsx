@@ -9,10 +9,12 @@ const MainNav = (props) => {
 				<Nav.Link as={Link} to='/'>
 					Home
 				</Nav.Link>
-				<Nav.Link as={Link} to='/dashboard'>
-					Dashboard
-				</Nav.Link>
-				<Nav.Link as={Link} to='/user/'>
+				{props.loggedInStatus !== 'LOGGED_IN' ? null : (
+					<Nav.Link as={Link} to='/dashboard'>
+						Dashboard
+					</Nav.Link>
+				)}
+				<Nav.Link as={Link} to='/user'>
 					User
 				</Nav.Link>
 			</Nav>

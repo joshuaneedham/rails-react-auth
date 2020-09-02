@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Dashboard = (props) => {
+	console.log(props.userName);
 	return (
 		<div>
 			{console.log(props.loggedInStatus)}
