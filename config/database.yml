@@ -23,14 +23,13 @@ default: &default
 
 development:
   <<: *default
-  database: dtt_rr_development
-
+  database: rcubed_development
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user that initialized the database.
-  #username: dtt_rr
+  #username: rcubed
 
   # The password associated with the postgres role (username).
   #password:
@@ -58,7 +57,7 @@ development:
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: dtt_rr_test
+  database: rcubed_test
 
 # As with config/credentials.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -81,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: dtt_rr_production
-  username: dtt_rr
-  password: <%= ENV['dtt_rr_DATABASE_PASSWORD'] %>
+  database: rcubed_production
+  username: rcubed
+  password: <%= ENV['rcubed_DATABASE_PASSWORD'] %>

@@ -6,7 +6,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
 
   # Update with domain name when pushed to a live environment
   # allow do
-  #   origin 'https://downthetu.be'
+  #   origin '[change to custom url]'
   #   resource '*', headers: :any, methods: %i[get post put patch delete options head], credentials: true
   # end
 end
